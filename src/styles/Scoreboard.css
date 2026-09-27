@@ -1,0 +1,24 @@
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+
+.score-box {
+  text-align: center;
+}
+
+.score-label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.score-value {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  color: var(--accent);
+}
